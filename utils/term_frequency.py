@@ -2,6 +2,10 @@ from collections import Counter, OrderedDict
 from math import log
 from operator import itemgetter
 
+
+total_documents = 10000
+new_idf = log(total_documents)
+
 def get_term_frequency_matrix(tokenized_docs):
     tf = {}
 
@@ -19,6 +23,7 @@ def get_inverse_document_frequency(all_words, all_docs):
         :return: {dictionary} of the Inverse Document frequencies of every word.
 
     """
+
     idf = OrderedDict()
 
     for word in all_words:
@@ -27,9 +32,8 @@ def get_inverse_document_frequency(all_words, all_docs):
         for doc in all_docs:
             c = doc.get(word, 0)
             if c:
-                count += c
                 number_of_documents += 1
-        idf[word] = log(count / number_of_documents)
+        idf[word] = log(total_documents / number_of_documents)
 
     return idf
 
@@ -44,6 +48,6 @@ def tfidf_one(idf, doc):
 
     tf_idf = {}
     for word, count in doc.items():
-        tf_idf[word] = count * idf.get(word, 1)
+        tf_idf[word] = count * idf.get(word, new_idf)
 
-    return sorted(tf_idf.items(), key=itemgetter(1), reverse=True)
+    return sorted(tf_idf.items(), key=itemgetter(1), reverse=True)[:10]

@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="dagger">
     <words>
+      <w>bigrams</w>
       <w>stemmer</w>
       <w>tokenized</w>
     </words>

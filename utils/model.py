@@ -9,7 +9,8 @@ def create_model():
     all_tokenized_docs = []
 
     for doc in documents:
-        doc_tokens, doc_stemmed_tokens = document.tokenize_document(doc)
+        # doc_tokens, doc_stemmed_tokens = document.tokenize_document(doc)
+        doc_tokens, doc_stemmed_tokens = document.tokenize_document_v2(doc)
         tokens = dict(Counter(doc_stemmed_tokens))
 
         all_tokenized_docs.append(tokens)
