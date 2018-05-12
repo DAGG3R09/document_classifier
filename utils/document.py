@@ -30,7 +30,9 @@ def tokenize_document(document):
 
         tokens += [w for w in filter_stop_words(word_tokenize(sentence))]
 
+    tokens = filter(lambda t: t != u'the', tokens)
     stemmed_tokens = stem_all_words(tokens)
+
 
     return tokens, stemmed_tokens
 
@@ -41,7 +43,7 @@ def read_all_documents():
     for file in listdir("training_data"):
 
         with open("training_data/"+file, 'r', encoding='utf8') as f:
-            doc = f.read()
+            doc = f.read().lower()
             f.close()
             all_docs.append(doc)
 
@@ -58,7 +60,7 @@ def get_all_words(all_docs):
 
 def get_tokenized_document(filename):
     with open(filename, 'r', encoding='utf8') as f:
-        doc = f.read()
+        doc = f.read().lower()
         f.close()
 
     doc, stemmed = tokenize_document(doc)

@@ -1,6 +1,6 @@
 
 
-stopWords = {u'all', u'just', u"don't", u'being', u'over', u'both', u'through', u'yourselves', u'its', u'before',
+stopWords = {u'all', u'just',u'the',  u"don't", u'being', u'over', u'both', u'through', u'yourselves', u'its', u'before',
                  u'o', u'don', u'hadn', u'herself', u'll', u'had', u'should', u'to', u'only', u'won', u'under', u'ours',
                  u'has', u"should've", u"haven't", u'do', u'them', u'his', u'very', u"you've", u'they', u'not',
                  u'during', u'now', u'him', u'nor', u"wasn't", u'd', u'did', u'didn', u'this', u'she', u'each',
@@ -16,4 +16,4 @@ stopWords = {u'all', u'just', u"don't", u'being', u'over', u'both', u'through', 
                  u'then', u'is', u'am', u'it', u'doesn', u'an', u'as', u'itself', u'at', u'have', u'in', u'any', u'if',
                  u'again', u'no', u'when', u'same', u'how', u'other', u'which', u'you', u"shan't", u'shan', u'needn',
                  u'haven', u'after', u'most', u'such', u'why', u'a', u'off', u'i', u'm', u'yours', u"you'll", u'so', u'y',
-                 u"she's", u'the', u'having', u'once'}
+                 u"she's", u'having', u'once'}

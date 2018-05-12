@@ -1,2 +1,4 @@
 *.pyc
-
+models
+training_data
+test_data

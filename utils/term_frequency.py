@@ -34,18 +34,6 @@ def get_inverse_document_frequency(all_words, all_docs):
     return idf
 
 
-def tfidf_all(tf, idf):
-    """
-
-    :param tf: term frequency Matrix
-    :param idf: Inverse Document Frequency Matrix
-    :return: tfidf matrix containing all the data points
-    """
-
-    # for i in range
-    pass
-
-
 def tfidf_one(idf, doc):
     """
 
@@ -56,6 +44,6 @@ def tfidf_one(idf, doc):
 
     tf_idf = {}
     for word, count in doc.items():
-        tf_idf[word] = count * idf.get(word, 0)
+        tf_idf[word] = count * idf.get(word, 1)
 
-    return sorted(tf_idf.items(), key=itemgetter(1), reverse=True)[:5]
+    return sorted(tf_idf.items(), key=itemgetter(1), reverse=True)
