@@ -56,6 +56,6 @@ def tfidf_one(idf, doc):
 
     tf_idf = {}
     for word, count in doc.items():
-        tf_idf[word] = count * idf[word]
+        tf_idf[word] = count * idf.get(word, 0)
 
     return sorted(tf_idf.items(), key=itemgetter(1), reverse=True)[:5]
