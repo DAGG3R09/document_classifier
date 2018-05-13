@@ -26,6 +26,9 @@ def get_inverse_document_frequency(all_words, all_docs):
 
     idf = OrderedDict()
 
+    print(len(all_words))
+    raw_input()
+    i = 0
     for word in all_words:
         count = 0
         number_of_documents = 0
@@ -34,6 +37,9 @@ def get_inverse_document_frequency(all_words, all_docs):
             if c:
                 number_of_documents += 1
         idf[word] = log(total_documents / number_of_documents)
+
+        print(">", i)
+        i += 1
 
     return idf
 

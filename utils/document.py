@@ -39,7 +39,12 @@ def read_all_documents():
         with open("training_data/"+file, 'r', encoding='utf8') as f:
             doc = f.read().lower()
             f.close()
-            all_docs.append(doc)
+
+            if file == "englishText_0_10000":
+                doc = doc.split("endofarticle.")
+                all_docs += doc
+            else:
+                all_docs.append(doc)
 
     return all_docs
 

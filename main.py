@@ -16,6 +16,7 @@ if __name__ == "__main__":
         name = raw_input("Enter Name for Model: ")
         idf, all_docs = create_model()
         write_idf_to_file(idf, name)
+        print("IDF written to file.")
 
     while True:
         doc_name = raw_input("Enter File name in test_data: ")
