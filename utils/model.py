@@ -16,8 +16,9 @@ def create_model():
         tokens = dict(Counter(doc_stemmed_tokens))
 
         all_tokenized_docs.append(tokens)
+        if i%1000 == 0:
+            print("Status: tokenizing- ", i)
         i += 1
-        print("tokenizing: ", i)
 
     # print all_tokenized_docs
     print("Tokenizing Completed.")
