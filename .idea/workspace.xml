@@ -38,21 +38,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="term_frequency.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="term_frequency.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../Project/utils/term_frequency.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="367">
-                  <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                <state relative-caret-position="295">
+                  <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../Project/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <state relative-caret-position="18">
+                  <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -108,7 +108,7 @@
             <entry file="file://$PROJECT_DIR$/../Project/utils/model.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="342">
-                  <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+                  <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
                   <folding>
                     <element signature="e#25#73#0" expanded="true" />
                   </folding>
@@ -158,15 +158,15 @@
         <option value="$PROJECT_DIR$/../Project/utils/document.py" />
         <option value="$PROJECT_DIR$/../Project/main.py" />
         <option value="$PROJECT_DIR$/../Project/utils/seperator.py" />
-        <option value="$PROJECT_DIR$/../Project/utils/term_frequency.py" />
         <option value="$PROJECT_DIR$/../Project/utils/model.py" />
         <option value="$PROJECT_DIR$/../Project/.gitignore" />
+        <option value="$PROJECT_DIR$/../Project/utils/term_frequency.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
-    <option name="y" value="-11" />
+    <option name="y" value="889" />
     <option name="width" value="1442" />
     <option name="height" value="912" />
   </component>
@@ -392,7 +392,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1442" height="912" extended-state="6" />
+    <frame x="-1" y="889" width="1442" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15031758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -601,10 +601,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Project/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Project/utils/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="e#25#73#0" expanded="true" />
           </folding>
@@ -613,16 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Project/utils/term_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Project/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="295">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -38,7 +38,7 @@ def get_inverse_document_frequency(all_words, all_docs):
                 number_of_documents += 1
         idf[word] = log(total_documents / number_of_documents)
 
-        if i%1000 == 0:
+        if i % 1000 == 0:
             print("Status: Word- ", i)
         i += 1
 
